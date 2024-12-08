@@ -1,0 +1,20 @@
+.drop {
+  width: 20px;
+  height: 20px;
+  clip-path: polygon( 50% 0%, 60% 40%, 100% 40%, 70% 60%, 80% 100%, 50% 75%, 20% 100%, 30% 60%, 0% 40%, 40% 40% );
+  position: absolute;
+  transform-origin: center;
+  animation: rotating 1s 1 forwards ease-in-out
+}
+
+@keyframes rotating {
+  from {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(200%);
+  }
+  to {
+    transform: scale(100%);
+  }
+}
