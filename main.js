@@ -29,6 +29,3 @@ function playSound(sound) {
   sound.currentTime = 0;
 }
 
-
- //  left: ${e.pageX - drop.getBoundingClientRect().width / 2}px;
-  //  top: ${e.pageY - drop.getBoundingClientRect().height / 2}px;
