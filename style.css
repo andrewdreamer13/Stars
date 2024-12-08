@@ -31,7 +31,7 @@ body {
   );
   position: absolute;
   transform-origin: center;
-  animation: scaling 1s 2 forwards ease-in-out;
+  animation: scaling 1s 1 forwards ease-in-out;
 }
 
 @keyframes scaling {
